@@ -12,10 +12,12 @@
 		18DA70FF1E34F5DF00AF47F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DA70FD1E34F5DF00AF47F4 /* Main.storyboard */; };
 		18DA71011E34F5DF00AF47F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DA71001E34F5DF00AF47F4 /* Assets.xcassets */; };
 		18DA71041E34F5DF00AF47F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DA71021E34F5DF00AF47F4 /* LaunchScreen.storyboard */; };
+		18F9688F1E502883002211C9 /* UIBarbuttonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9688E1E502883002211C9 /* UIBarbuttonItem-Extension.swift */; };
 		18FDFC281E3504DF002EF659 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FDFC271E3504DF002EF659 /* Home.storyboard */; };
 		18FDFC2A1E35054F002EF659 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FDFC291E35054F002EF659 /* Live.storyboard */; };
 		18FDFC2C1E35057F002EF659 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FDFC2B1E35057F002EF659 /* Follow.storyboard */; };
 		18FDFC2F1E350682002EF659 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FDFC2E1E350682002EF659 /* User.storyboard */; };
+		18FDFC3E1E350B72002EF659 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDFC3D1E350B72002EF659 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +28,12 @@
 		18DA71001E34F5DF00AF47F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DA71031E34F5DF00AF47F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DA71051E34F5DF00AF47F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F9688E1E502883002211C9 /* UIBarbuttonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarbuttonItem-Extension.swift"; sourceTree = "<group>"; };
 		18FDFC271E3504DF002EF659 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		18FDFC291E35054F002EF659 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
 		18FDFC2B1E35057F002EF659 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
 		18FDFC2E1E350682002EF659 /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		18FDFC3D1E350B72002EF659 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,14 @@
 			path = douyu;
 			sourceTree = "<group>";
 		};
+		18F9688D1E5027C0002211C9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18F9688E1E502883002211C9 /* UIBarbuttonItem-Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
 		18FDFC201E34FD06002EF659 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +119,7 @@
 		18FDFC231E34FD6D002EF659 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				18F9688D1E5027C0002211C9 /* Extension */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -152,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				18FDFC271E3504DF002EF659 /* Home.storyboard */,
+				18FDFC3D1E350B72002EF659 /* HomeViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -315,6 +329,8 @@
 			files = (
 				18DA70FC1E34F5DF00AF47F4 /* ViewController.swift in Sources */,
 				18DA70FA1E34F5DF00AF47F4 /* AppDelegate.swift in Sources */,
+				18F9688F1E502883002211C9 /* UIBarbuttonItem-Extension.swift in Sources */,
+				18FDFC3E1E350B72002EF659 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
